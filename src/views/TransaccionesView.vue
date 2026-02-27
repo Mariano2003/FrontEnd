@@ -93,14 +93,14 @@ export default {
 </script> 
 
 <style scoped>
-/* src/assets/Styles/vistas.css */
+
 
 .transacciones-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #1e293b; /* gris oscuro */
+  color: #1e293b; 
 }
 
 .transacciones-container h1 {
@@ -135,7 +135,7 @@ export default {
   margin-bottom: 1rem;
 }
 
-/* Opcional: estilos básicos para tablas dentro de la vista */
+
 
 table {
   width: 100%;
@@ -145,13 +145,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #cbd5e1; /* gris claro */
+  border: 1px solid #cbd5e1; 
   padding: 0.6rem 0.8rem;
   text-align: left;
 }
 
 th {
-  background-color: #f1f5f9; /* muy claro */
+  background-color: #f1f5f9; 
   font-weight: 600;
   color: #334155;
 }

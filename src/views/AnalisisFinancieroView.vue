@@ -62,7 +62,7 @@ export default {
 }
 </script>
 <style scoped>
-/* estilos para AnalisisFinancieroView */
+
 
 .analisis-container {
   max-width: 600px;
@@ -81,7 +81,7 @@ h1 {
   margin-bottom: 1.5rem;
   user-select: none;
   text-align: center;
-  color: #2563eb; /* azul intenso */
+  color: #2563eb; 
 }
 
 .selector-cliente {

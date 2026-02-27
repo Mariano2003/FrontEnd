@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="app-container">
-      <!-- Tu contenido aquí -->
-      <h1>💸 Billetera de Criptomoneda</h1>
+      
+      <h1> Billetera de Criptomoneda</h1>
       <nav>
         <router-link to="/">Inicio</router-link> |
         <router-link to="/clientes">Clientes</router-link> |
@@ -18,17 +18,17 @@
 </script>
 <style>
 
-/* Hacemos que el body y html ocupen todo el alto y ancho */
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f9fafb; /* Fondo general */
+  background-color: #f9fafb; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1e293b;
 }
 
-/* Contenedor que ocupa TODO el ancho y alto mínimo, para fondo */
+
 #app {
   min-height: 100vh;
   width: 100%;
@@ -36,10 +36,10 @@ html, body {
   padding: 2rem 1rem;
   box-sizing: border-box;
   display: flex;
-  justify-content: center; /* Centra el contenido horizontalmente */
+  justify-content: center; 
 }
 
-/* Contenedor interno centrado y con máximo ancho */
+
 .app-container {
   width: 100%;
   max-width: 1000px;

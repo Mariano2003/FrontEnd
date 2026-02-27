@@ -3,6 +3,7 @@
     <h2>{{ transaccionParaEditar ? 'Editar Transacción' : 'Nueva Transacción' }}</h2>
 
     <form @submit.prevent="guardar" novalidate>
+     
       <label for="cliente">Cliente</label>
       <select id="cliente" v-model="form.clienteId" required>
         <option value="" disabled>Seleccione un cliente</option>

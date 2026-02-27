@@ -40,7 +40,7 @@ table {
 }
 
 thead {
-  background-color: #f3f4f6; /* gris claro */
+  background-color: #f3f4f6; 
   user-select: none;
 }
 
@@ -54,7 +54,7 @@ td {
 }
 
 tbody tr:hover {
-  background-color: #e0e7ff; /* azul muy claro */
+  background-color: #e0e7ff; 
   transition: background-color 0.3s ease;
 }
 

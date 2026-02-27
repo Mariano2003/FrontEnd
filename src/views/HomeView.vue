@@ -19,7 +19,7 @@
   </script>
 
   <style scoped>
-  /* src/assets/Styles/Home.css */
+ 
 
 .home {
   max-width: 600px;
@@ -40,7 +40,7 @@
 .home p {
   font-size: 1.125rem;
   margin-bottom: 2rem;
-  color: #4b5563; /* gris medio */
+  color: #4b5563; 
 }
 
 .btn-container {

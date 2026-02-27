@@ -87,7 +87,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* src/assets/Styles/GestionClientes.css */
+
 
 .p-4 {
   padding: 1rem;
@@ -108,7 +108,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #1e293b; /* gris oscuro azulado */
+  color: #1e293b; 
   text-align: center;
   user-select: none;
 }
@@ -123,7 +123,7 @@ form, table {
   color: #334155;
 }
 
-/* Botones */
+
 button {
   cursor: pointer;
   border-radius: 6px;
@@ -164,7 +164,7 @@ button.text-red-600 {
   border: 1.5px solid #dc2626;
 }
 
-/* Tabla */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -185,7 +185,7 @@ tbody tr:hover {
   background-color: #f0f9ff;
 }
 
-/* Espaciado en acciones */
+
 td.space-x-2 > button {
   margin-right: 0.5rem;
 }

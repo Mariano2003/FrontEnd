@@ -30,7 +30,7 @@ export default {
     }
   },
   setup(props) {
-    // Creamos reactive data para el gráfico
+   
     const data = reactive({
       labels: [],
       datasets: [
@@ -60,12 +60,12 @@ export default {
       }
     })
 
-    // Colores para las criptos (reusá o extendé)
+    
     const colores = [
-      '#f7931a', // BTC naranja
-      '#3c3c3d', // ETH gris oscuro
-      '#26a17b', // USDT verde
-      '#ff6384', // otro color
+      '#f7931a', 
+      '#3c3c3d', 
+      '#26a17b', 
+      '#ff6384', 
       '#36a2eb',
       '#ffce56'
     ]
@@ -83,7 +83,7 @@ export default {
       })
     }
 
-    // Reactivo al cambio en props.saldos
+  
     watch(() => props.saldos, actualizarDatos, { deep: true, immediate: true })
 
     return { data, options }
@@ -143,7 +143,7 @@ export default {
               size: 14,
               weight: '600'
             },
-            color: '#1e40af' // azul intenso para leyenda
+            color: '#1e40af' 
           }
         },
         tooltip: {
@@ -167,12 +167,12 @@ export default {
     })
 
     const colores = [
-      '#f7931a', // BTC naranja
-      '#3c3c3d', // ETH gris oscuro
-      '#26a17b', // USDT verde
-      '#ff6384', // rosa
-      '#36a2eb', // celeste
-      '#ffce56'  // amarillo
+      '#f7931a', 
+      '#3c3c3d', 
+      '#26a17b', 
+      '#ff6384', 
+      '#36a2eb', 
+      '#ffce56'  
     ]
 
     const actualizarDatos = () => {
